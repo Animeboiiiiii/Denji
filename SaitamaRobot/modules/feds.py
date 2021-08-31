@@ -7,8 +7,8 @@ import time
 import uuid
 from io import BytesIO
 
-import SaitamaRobot.modules.sql.feds_sql as sql
-from SaitamaRobot import (
+import Denji_Robot.modules.sql.feds_sql as sql
+from Denji_Robot import (
     EVENT_LOGS,
     LOGGER,
     SUPPORT_CHAT,
@@ -18,10 +18,10 @@ from SaitamaRobot import (
     WOLVES,
     dispatcher,
 )
-from SaitamaRobot.modules.disable import DisableAbleCommandHandler
-from SaitamaRobot.modules.helper_funcs.alternate import send_message
-from SaitamaRobot.modules.helper_funcs.chat_status import is_user_admin
-from SaitamaRobot.modules.helper_funcs.extraction import (
+from Denji_Robot.modules.disable import DisableAbleCommandHandler
+from Denji_Robot.modules.helper_funcs.alternate import send_message
+from Denji_Robot.modules.helper_funcs.chat_status import is_user_admin
+from Denji_Robot.modules.helper_funcs.extraction import (
     extract_unt_fedban,
     extract_user,
     extract_user_fban,
