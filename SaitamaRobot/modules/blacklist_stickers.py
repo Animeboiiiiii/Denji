@@ -1,17 +1,17 @@
 import html
 from typing import Optional
 
-import SaitamaRobot.modules.sql.blsticker_sql as sql
-from SaitamaRobot import LOGGER, dispatcher
-from SaitamaRobot.modules.connection import connected
-from SaitamaRobot.modules.disable import DisableAbleCommandHandler
-from SaitamaRobot.modules.helper_funcs.alternate import send_message
-from SaitamaRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from SaitamaRobot.modules.helper_funcs.misc import split_message
-from SaitamaRobot.modules.helper_funcs.string_handling import extract_time
+import Denji_Robot.modules.sql.blsticker_sql as sql
+from Denji_Robot import LOGGER, dispatcher
+from Denji_Robot.modules.connection import connected
+from Denji_Robot.modules.disable import DisableAbleCommandHandler
+from Denji_Robot.modules.helper_funcs.alternate import send_message
+from Denji_Robot.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from Denji_Robot.modules.helper_funcs.misc import split_message
+from Denji_Robot.modules.helper_funcs.string_handling import extract_time
 
-from SaitamaRobot.modules.log_channel import loggable
-from SaitamaRobot.modules.warns import warn
+from Denji_Robot.modules.log_channel import loggable
+from Denji_Robot.modules.warns import warn
 from telegram import Chat, Message, ParseMode, Update, User, ChatPermissions
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, MessageHandler
