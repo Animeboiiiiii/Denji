@@ -5,10 +5,10 @@ import sys
 from contextlib import suppress
 from time import sleep
 
-import SaitamaRobot
+import Denji_Robot
 
-from SaitamaRobot import dispatcher
-from SaitamaRobot.modules.helper_funcs.chat_status import dev_plus
+from Denji_Robot import dispatcher
+from Denji_Robot.modules.helper_funcs.chat_status import dev_plus
 from telegram import TelegramError, Update
 from telegram.error import Unauthorized
 from telegram.ext import CallbackContext, CommandHandler, run_async
