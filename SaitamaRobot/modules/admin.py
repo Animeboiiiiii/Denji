@@ -21,7 +21,7 @@ from Denji_Robot.modules.helper_funcs.extraction import (
     extract_user_and_text,
 )
 from Denji_Robot.modules.log_channel import loggable
-from SaitamaRobot.modules.helper_funcs.alternate import send_message
+from Denji_Robot.modules.helper_funcs.alternate import send_message
 
 
 @run_async
