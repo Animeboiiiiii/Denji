@@ -2,9 +2,9 @@ import importlib
 from typing import Union
 
 from future.utils import string_types
-from SaitamaRobot import dispatcher
-from SaitamaRobot.modules.helper_funcs.handlers import CMD_STARTERS, SpamChecker
-from SaitamaRobot.modules.helper_funcs.misc import is_module_loaded
+from  Denji_Robot import dispatcher
+from Denji_Robot.modules.helper_funcs.handlers import CMD_STARTERS, SpamChecker
+from Denji_Robot.modules.helper_funcs.misc import is_module_loaded
 from telegram import ParseMode, Update
 from telegram.ext import (
     CallbackContext,
